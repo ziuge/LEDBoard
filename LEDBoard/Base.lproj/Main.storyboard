@@ -43,6 +43,10 @@
                                         <rect key="frame" x="16" y="8" width="544" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="userTextFieldAction:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="1pK-Ki-XMi"/>
+                                            <action selector="userTextFieldAction:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="dAT-6Y-Fag"/>
+                                        </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iG-Ob-2uD">
                                         <rect key="frame" x="644" y="8" width="88" height="44"/>

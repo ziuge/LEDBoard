@@ -71,13 +71,14 @@ class BoardViewController: UIViewController, UITextFieldDelegate {
     
 
     @IBAction func sendButtonClicked(_ sender: Any) {
-        print(userTextField.text?.count)
-        print(sendButton.currentTitle)
         resultLabel.text = userTextField.text
     }
     
     @IBAction func tapGestureClicked(_ sender: Any) {
         view.endEditing(true)
+    }
+
+    @IBAction func userTextFieldAction(_ sender: Any) {
     }
     
     // 연결 관계 다 끊어보고 Any 타입으로 연결, 기능이 같은 것 합치기
