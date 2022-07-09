@@ -9,6 +9,7 @@ import UIKit
 
 class BoardViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var editView: UIView!
     @IBOutlet weak var userTextField: UITextField!
     @IBOutlet weak var sendButton: UIButton!
     @IBOutlet weak var textColorButton: UIButton!
@@ -76,6 +77,13 @@ class BoardViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func tapGestureClicked(_ sender: Any) {
         view.endEditing(true)
+        
+        // View isHidden toggle 구현
+        if editView.isHidden == false {
+            editView.isHidden = true
+        } else {
+            editView.isHidden = false
+        }
     }
 
     @IBAction func userTextFieldAction(_ sender: Any) {

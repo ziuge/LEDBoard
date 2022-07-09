@@ -90,6 +90,7 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="editView" destination="VJu-dP-45r" id="Tqu-Zb-fzJ"/>
                         <outlet property="resultLabel" destination="cPE-Jz-B8Y" id="dTE-GR-Qab"/>
                         <outlet property="sendButton" destination="Khx-AV-j4D" id="msr-yL-r51"/>
                         <outlet property="textColorButton" destination="4iG-Ob-2uD" id="6l8-oZ-GeN"/>
