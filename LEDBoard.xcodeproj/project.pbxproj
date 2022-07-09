@@ -13,6 +13,7 @@
 		DEDB98CA28750AB200D3298C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDB98C828750AB200D3298C /* Main.storyboard */; };
 		DEDB98CC28750AB400D3298C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDB98CB28750AB400D3298C /* Assets.xcassets */; };
 		DEDB98CF28750AB400D3298C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDB98CD28750AB400D3298C /* LaunchScreen.storyboard */; };
+		DEDB98D728752E8100D3298C /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB98D628752E8100D3298C /* BoardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DEDB98CB28750AB400D3298C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEDB98CE28750AB400D3298C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEDB98D028750AB400D3298C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDB98D628752E8100D3298C /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				DEDB98C428750AB200D3298C /* SceneDelegate.swift */,
 				DEDB98C628750AB200D3298C /* ViewController.swift */,
 				DEDB98C828750AB200D3298C /* Main.storyboard */,
+				DEDB98D628752E8100D3298C /* BoardViewController.swift */,
 				DEDB98CB28750AB400D3298C /* Assets.xcassets */,
 				DEDB98CD28750AB400D3298C /* LaunchScreen.storyboard */,
 				DEDB98D028750AB400D3298C /* Info.plist */,
@@ -141,6 +144,7 @@
 				DEDB98C728750AB200D3298C /* ViewController.swift in Sources */,
 				DEDB98C328750AB200D3298C /* AppDelegate.swift in Sources */,
 				DEDB98C528750AB200D3298C /* SceneDelegate.swift in Sources */,
+				DEDB98D728752E8100D3298C /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,19 +291,23 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DV7XBU83N5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LEDBoard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.LEDBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.LEDBoards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,19 +322,23 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DV7XBU83N5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LEDBoard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.LEDBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.LEDBoards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
